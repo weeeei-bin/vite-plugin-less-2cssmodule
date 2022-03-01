@@ -1,0 +1,26 @@
+{
+    "name": "vite-plugin-less-2cssmodule",
+    "version": "1.0.1",
+    "main": "dist/index.js",
+    "keywords": [
+        "vite",
+        "less",
+        "CSS Module",
+        "vite-plugin",
+        "vite-plugin-less"
+    ],
+    "scripts":{
+        "build":"rollup src/index.js --file dist/index.js --format cjs"
+    },
+    "dependencies": {
+        "@babel/core": "^7.17.5",
+        "@babel/generator": "^7.17.3",
+        "@babel/parser": "^7.17.3",
+        "@babel/traverse": "^7.17.3",
+        "@babel/types": "^7.17.0",
+        "fs": "^0.0.1-security",
+        "less": "^4.1.2",
+        "postcss": "^8.4.7",
+        "postcss-modules": "^4.3.1"
+    }
+}
