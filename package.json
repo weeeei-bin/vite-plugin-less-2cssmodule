@@ -2,6 +2,14 @@
     "name": "vite-plugin-less-2cssmodule",
     "version": "1.0.1",
     "main": "dist/index.js",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/weeeei-bin/vite-plugin-less-2cssmodule"
+    },
+    "author": {
+        "name": "陈伟斌",
+        "email": "814792647@qq.com"
+    },
     "keywords": [
         "vite",
         "less",
@@ -9,8 +17,8 @@
         "vite-plugin",
         "vite-plugin-less"
     ],
-    "scripts":{
-        "build":"rollup src/index.js --file dist/index.js --format cjs"
+    "scripts": {
+        "build": "rollup src/index.js --file dist/index.js --format cjs"
     },
     "dependencies": {
         "@babel/core": "^7.17.5",
@@ -22,5 +30,6 @@
         "less": "^4.1.2",
         "postcss": "^8.4.7",
         "postcss-modules": "^4.3.1"
-    }
+    },
+    "license": "MIT"
 }
